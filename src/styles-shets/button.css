@@ -1,0 +1,17 @@
+
+.button-container {
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: #505050;
+  border:0.1px solid black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+  user-select: none;
+}
+
+.operator{ 
+  background-color: #FF9500 ;
+
+}

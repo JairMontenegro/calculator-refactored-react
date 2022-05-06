@@ -15,3 +15,8 @@
   background-color: #FF9500 ;
 
 }
+
+.zero{
+  grid-column:span 2;
+  border-bottom-left-radius: 10px;
+}

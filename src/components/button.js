@@ -1,12 +1,17 @@
 import React from "react";
+import '../styles-shets/button.css'
+
 
 function Button (props){
   const itsOperator = value => {
-    return isNaN(value) && (value !== '.') && (value !== '=') && (value !== 'C' ) && (value !== 'DEL')
+    return isNaN(value) && (value !== '.')  && (value !== 'C') && (value !== 'DEL') && (value !== '%')
   };
+  const itsZero = value =>{
+    return (value === '0')
+  }
 
   return(
-    <div className={`button-container ${itsOperator(props.children) ? 'operator' : null}`}>
+    <div className={`button-container ${itsOperator(props.children) ? 'operator' : null} ${itsZero(props.children) ? 'zero' : ''}`}>
       {props.children} 
     </div>
   );

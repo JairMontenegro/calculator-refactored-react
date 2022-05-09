@@ -11,6 +11,7 @@
     rgba(255,255,255, .1)),
     url(https://www.muycomputer.com/wp-content/uploads/2021/06/Monterey-1.jpg);
     background-size: cover;;
+    position: relative;
     }
 
 .App{

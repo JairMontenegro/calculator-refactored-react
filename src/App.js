@@ -4,7 +4,7 @@ import Display from './components/display.js';
 import ButtonCLear from './components/clearButton.js';
 import {useState} from 'react';
 import {evaluate} from 'mathjs';
-
+import Footer from './components/footer.js';
 
 function App() {
 
@@ -53,7 +53,10 @@ function App() {
         </div>
 
         </div>
+        <Footer/>
       </div>
+
+    
   )
 }
 
@@ -62,3 +65,5 @@ export default App;
 
 
 // arrow function must have ;. 
+// add second display 
+// add same funtionalitys from porject js

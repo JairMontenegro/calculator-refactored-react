@@ -2,7 +2,7 @@
   "name": "calculator-refactored-with-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "JairMontenegro.github.io/calculator-refactored-react",
+  "homepage": "http://JairMontenegro.github.io/calculator-refactored-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",

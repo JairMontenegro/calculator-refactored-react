@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/JairMontenegro.github.io/calculator-refactored-react/static/css/main.aac60580.css",
-    "main.js": "/JairMontenegro.github.io/calculator-refactored-react/static/js/main.ac158f7b.js",
-    "index.html": "/JairMontenegro.github.io/calculator-refactored-react/index.html",
-    "main.aac60580.css.map": "/JairMontenegro.github.io/calculator-refactored-react/static/css/main.aac60580.css.map",
-    "main.ac158f7b.js.map": "/JairMontenegro.github.io/calculator-refactored-react/static/js/main.ac158f7b.js.map"
+    "main.css": "/calculator-refactored-react/static/css/main.aac60580.css",
+    "main.js": "/calculator-refactored-react/static/js/main.ac158f7b.js",
+    "index.html": "/calculator-refactored-react/index.html",
+    "main.aac60580.css.map": "/calculator-refactored-react/static/css/main.aac60580.css.map",
+    "main.ac158f7b.js.map": "/calculator-refactored-react/static/js/main.ac158f7b.js.map"
   },
   "entrypoints": [
     "static/css/main.aac60580.css",

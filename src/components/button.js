@@ -11,7 +11,7 @@ function Button (props){
   }
 
   return(
-    <div className={`button-container ${itsOperator(props.children) ? 'operator' : null} ${itsZero(props.children) ? 'zero' : ''}`}
+    <div className={`button-container ${itsOperator(props.children) ? 'operator' : null} ${itsZero(props.children) ? 'zero' : ''}`.trimEnd()}
     onClick={() => props.mClick(props.children)}>
       {props.children} 
     </div>

@@ -3,6 +3,7 @@ import Button from './components/button.js';
 import Display from './components/display.js';
 import ButtonCLear from './components/clearButton.js';
 import {useState} from 'react';
+import {evaluate} from 'mathjs';
 
 
 function App() {
@@ -13,6 +14,13 @@ function App() {
     setInput(input + val)
   };
 
+  const calculate = () => {
+    if (input) {
+    setInput(evaluate(input))
+    }else {
+      alert('please insert values to calculate')
+    }
+  }
 
 
   return (
@@ -41,7 +49,7 @@ function App() {
             <Button mClick={addInput}>+</Button>
             <Button mClick={addInput}>0</Button>
             <Button mClick={addInput}>.</Button>
-            <Button mClick={addInput}>=</Button>
+            <Button mClick={calculate}>=</Button>
         </div>
 
         </div>
@@ -51,3 +59,6 @@ function App() {
 
 
 export default App;
+
+
+// arrow function must have ;. 

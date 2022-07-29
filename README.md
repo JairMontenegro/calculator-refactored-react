@@ -31,6 +31,11 @@ This project was built with vanilla javascript using ES6 classes and then refact
 
 Este es un proyecto que use para aprender a react JS. El objetivo es usar props.children, condicional ternario y hook useState, y ademas use la evaluación math.js
 
+Este proyecto fue creado con javascript vanilla usando las clases proporcionadas en ES6 y luego aqui lo refactorize con react.
+Puede ver este ese proyecto en el link de abajo.
+
+[Calculator-JS](https://jairmontenegro.github.io/Calculator-js/ "click to enter")
+
 - La estructura inicla fue creada con el comando `npx-create-react-app`
 
 ## PARA EJECUTAR LA APLICACION Y EDITAR

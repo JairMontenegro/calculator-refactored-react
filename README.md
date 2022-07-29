@@ -8,6 +8,10 @@
 
 This is a project I use to learn react JS. The goal is to use props.children, ternary conditional and useState hook, and also use math.js evaluation
 
+This project was built with vanilla javascript using ES6 classes and then refactored with react. You can see that project in the link below.
+
+[Calculator-JS](https://jairmontenegro.github.io/Calculator-js/ "click to enter")
+
 - The initial structure was created with the command `npx-create-react-app`.
 
 ## TO RUN THE APP AND EDIT

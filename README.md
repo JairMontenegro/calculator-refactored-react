@@ -2,7 +2,7 @@
 
 ![CAPTURE](/calculator-js.png "APP SCREENSHOT")
 
-:en:
+:us:
 
 [Calculator-react](https://jairmontenegro.github.io/calculator-refactored-react/ "click to enter")
 

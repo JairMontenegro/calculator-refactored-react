@@ -9,3 +9,8 @@
     cursor:pointer;
     user-select: none;
 }
+
+.clear_button:active{
+    color: #fff;
+    background-color: #d4d4d2;
+  }

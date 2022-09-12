@@ -9,6 +9,7 @@
   justify-content: center;
   cursor:pointer;
   user-select: none;
+
 }
 
 .operator{ 
@@ -19,4 +20,10 @@
 .zero{
   grid-column:span 2;
   border-bottom-left-radius: 10px;
+}
+
+
+.button-container:active{
+  color: #fff;
+  background-color: #d4d4d2;
 }

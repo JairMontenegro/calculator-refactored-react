@@ -27,24 +27,60 @@ function App() {
         <div className="calculator">
           <Display input={input} />
           <ButtonCLear mClear={() => setInput("")}>C</ButtonCLear>
-          <Button mClick={addInput}>DEL</Button>
-          <Button mClick={addInput}>%</Button>
-          <Button mClick={addInput}>/</Button>
-          <Button mClick={addInput}>7</Button>
-          <Button mClick={addInput}>8</Button>
-          <Button mClick={addInput}>9</Button>
-          <Button mClick={addInput}>*</Button>
-          <Button mClick={addInput}>4</Button>
-          <Button mClick={addInput}>5</Button>
-          <Button mClick={addInput}>6</Button>
-          <Button mClick={addInput}>-</Button>
-          <Button mClick={addInput}>1</Button>
-          <Button mClick={addInput}>2</Button>
-          <Button mClick={addInput}>3</Button>
-          <Button mClick={addInput}>+</Button>
-          <Button mClick={addInput}>0</Button>
-          <Button mClick={addInput}>.</Button>
-          <Button mClick={calculate}>=</Button>
+          <Button id="del" mClick={addInput}>
+            DEL
+          </Button>
+          <Button id="percent" mClick={addInput}>
+            %
+          </Button>
+          <Button id="divide" mClick={addInput}>
+            /
+          </Button>
+          <Button id="seven" mClick={addInput}>
+            7
+          </Button>
+          <Button id="eight" mClick={addInput}>
+            8
+          </Button>
+          <Button id="nine" mClick={addInput}>
+            9
+          </Button>
+          <Button id="multiply" mClick={addInput}>
+            *
+          </Button>
+          <Button id="four" mClick={addInput}>
+            4
+          </Button>
+          <Button id="five" mClick={addInput}>
+            5
+          </Button>
+          <Button id="six" mClick={addInput}>
+            6
+          </Button>
+          <Button id="subtract" mClick={addInput}>
+            -
+          </Button>
+          <Button id="one" mClick={addInput}>
+            1
+          </Button>
+          <Button id="two" mClick={addInput}>
+            2
+          </Button>
+          <Button id="three" mClick={addInput}>
+            3
+          </Button>
+          <Button id="add" mClick={addInput}>
+            +
+          </Button>
+          <Button id="zero" mClick={addInput}>
+            0
+          </Button>
+          <Button id="decimal" mClick={addInput}>
+            .
+          </Button>
+          <Button id="equals" mClick={calculate}>
+            =
+          </Button>
         </div>
       </div>
       <Footer />
@@ -53,7 +89,3 @@ function App() {
 }
 
 export default App;
-
-// arrow function must have ;.
-// add second display
-// add same funtionalitys from porject js

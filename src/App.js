@@ -10,7 +10,12 @@ function App() {
   const [input, setInput] = useState("");
 
   const addInput = (val) => {
+    // si ese valor es 0 desaparecerlo tampoco debe permitir agregar mas ceros al principio del calculo
     setInput(input + val);
+  };
+
+  const deleteButton = () => {
+    // se podria hacer con un slice adquiriendo la longitud del input
   };
 
   const calculate = () => {
@@ -27,7 +32,7 @@ function App() {
         <div className="calculator">
           <Display input={input} />
           <ButtonCLear mClear={() => setInput("")}>C</ButtonCLear>
-          <Button id="del" mClick={addInput}>
+          <Button id="del" mClick={deleteButton}>
             DEL
           </Button>
           <Button id="percent" mClick={addInput}>
